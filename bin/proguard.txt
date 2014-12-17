@@ -1,0 +1,27 @@
+# view AndroidManifest.xml #generated:60
+-keep class com.abhiyaaan.DisplayMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.abhiyaaan.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.abhiyaaan.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.abhiyaaan.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.abhiyaaan.SendQuery { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:46
+-keepclassmembers class * { *** LoadImages(...); }
+
+# onClick res/layout/activity_get_result.xml #generated:16
+-keepclassmembers class * { *** getMessage(...); }
+
+# onClick res/layout/activity_main.xml #generated:56
+-keepclassmembers class * { *** sendMessage(...); }
+

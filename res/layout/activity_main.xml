@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerVertical="true"
+         
+    />
+
+    
+    
+    
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+        android:layout_alignParentTop="true"
+        android:text="@string/textview1" />
+
+    
+    
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/textview2" />
+    
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="140dp"
+            android:text="@string/textview3" />
+    
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginTop="-70dp"
+       
+        android:text="@string/LoadPicture" 
+        android:onClick="LoadImages"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="220dp"
+        android:onClick="sendMessage"
+        android:text="@string/button1" />
+
+   
+    
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+     
+        android:ems="10"
+        android:hint="@string/text1" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+     
+        android:ems="10"
+        android:hint="@string/text2" />
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview3"
+     
+        android:ems="10"
+        android:hint="@string/text3" />
+
+
+</RelativeLayout>
